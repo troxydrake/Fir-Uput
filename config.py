@@ -17,11 +17,11 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
-API_ID = getenv("API_ID", "23129036")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "😄")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/c3f4f8a443333842dd1f3.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "ʜᴇʏ, ɪ ᴀᴍ ᴀʟɪᴠᴇ.")
+API_HASH = getenv("API_HASH", "ecc3091912fba8a260706a660fc77b3a")
+API_ID = getenv("API_ID", "29561199")
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001608701614, -1001675459127, -1001473548283, -1001608701614]
@@ -33,11 +33,11 @@ CMD_HNDLR = cmd
 OWNER_ID = getenv("OWNER_ID", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
-CHANNEL = getenv("CHANNEL", "amneseey0u")
-CMD_HANDLER = getenv("CMD_HANDLER", ".")
+CHANNEL = getenv("CHANNEL", "BeeXDomp")
+CMD_HANDLER = getenv("CMD_HANDLER", "∆")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
-GROUP = getenv("GROUP", "uputtSupport")
+GROUP = getenv("GROUP", "cari_kawanindonesia")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
