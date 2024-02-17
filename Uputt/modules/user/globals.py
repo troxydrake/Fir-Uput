@@ -55,7 +55,7 @@ async def gban_user(client: Client, message: Message):
         return await Uputt.edit("**Gak Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
     if user_id in WHITELIST:
         return await Uputt.edit(
-            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @UputtSupport 😡**"
+            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @cari_kawanindonesia 😡**"
         )
     if user_id:
         try:
@@ -176,7 +176,7 @@ async def gmute_user(client: Client, message: Message):
         return await Uputt.edit("**Gak Bisa Di Gmute Kontol karena dia Yang Buat Aku 🗿**")
     if user.id in WHITELIST:
         return await Uputt.edit(
-            "**Mana Bisa Anjing Gmute Admin @UputtSupport 😡**"
+            "**Mana Bisa Anjing Gmute Admin @cari_kawanindonesia 😡**"
         )
     try:
         replied_user = reply.from_user
@@ -210,25 +210,25 @@ async def ungmute_user(client: Client, message: Message):
         try:
             user = await client.get_users(args)
         except Exception:
-            await Uputt.edit(f"`Please specify a valid user!`")
+            await Uputt.edit(f"`Harap tentukan pengguna yang valid!`")
             return
     elif reply:
         user_id = reply.from_user.id
         user = await client.get_users(user_id)
     else:
-        await Uputt.edit(f"`Please specify a valid user!`")
+        await Uputt.edit(f"`Harap tentukan pengguna yang valid!`")
         return
 
     try:
         replied_user = reply.from_user
         if replied_user.is_self:
-            return await Man.edit("`Calm down anybob, you can't ungmute yourself.`")
+            return await Man.edit("`Tenang saja bob, kamu tidak bisa mengaktifkan suaramu sendiri.`")
     except BaseException:
         pass
 
     try:
         if not sql2.is_gmuted(user.id):
-            return await Uputt.edit("`User already ungmuted`")
+            return await Uputt.edit("`Pengguna sudah mengaktifkan suaranya`")
         sql2.ungmute(user.id)
         try:
             common_chats = await client.get_common_chats(user.id)
