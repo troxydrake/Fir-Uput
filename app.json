@@ -1,6 +1,6 @@
 {
-  "name": "Uputt-Pyrobot",
-  "description": "[Uputt-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Uputt-Pyrobot.",
+  "name": "Bee-Pyrobot",
+  "description": "[Bee-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Bee-Pyrobot.",
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {
