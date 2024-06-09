@@ -1,6 +1,6 @@
 {
-  "name": "Bee-Pyrobot",
-  "description": "[Bee-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Bee-Pyrobot.",
+  "name": "Dokter-Pyrobot",
+  "description": "[Dokter-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Dokter-Pyrobot.",
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {
