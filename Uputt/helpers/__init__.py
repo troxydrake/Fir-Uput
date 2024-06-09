@@ -17,13 +17,12 @@ from pyrogram import Client
 
 
 def restart():
-    os.execvp(sys.executable, [sys.executable, "-m", "Bee"])
+    os.execvp(sys.executable, [sys.executable, "-m", "Dokter"])
 
 async def join(client):
     try:
-        await client.join_chat("CKIchannel")
-        await client.join_chat("BeeXDomp")
-        await client.join_chat("cari_kawanindonesia")
+        await client.join_chat("ZannXBumb")
+        await client.join_chat("ctg_id1")
         await client.join_chat("Cari_Teman_Mutualan_Indo")
     except BaseException:
         pass
