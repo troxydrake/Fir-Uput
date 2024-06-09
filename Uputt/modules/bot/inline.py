@@ -70,7 +70,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/dd5d0e02c0cecce66d7b7.jpg",
+            thumb_url="https://telegra.ph/file/fd6b37b5071a2cae8d091.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
