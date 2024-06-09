@@ -25,10 +25,10 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logouputt = [
-    "https://telegra.ph/file/7d7432a542a03ded9ae43.jpg",
-    "https://telegra.ph/file/0400c0b0b2d9869d3a9d5.jpg",
-    "https://telegra.ph/file/737fceed0883e53576b13.jpg",
-    "https://telegra.ph/file/de157ee8f1053273de9a1.jpg"
+    "https://telegra.ph/file/8b3c2e2debdad3b4e6d4f.jpg",
+    "https://telegra.ph/file/a0fc2a5fe6f171863bf6f.jpg",
+    "https://telegra.ph/file/1e39850a92620bec560b7.jpg",
+    "https://telegra.ph/file/219f99d8edb8c93b5b1ac.jpg"
 ]
 
 alive_logo = random.choice(logouputt)
@@ -37,11 +37,11 @@ alive_logo = random.choice(logouputt)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "Hi, Saya Asisstant Bee-Pyrobot\nTidak Ada Yang Special Kecuali Bee."
+    caption = "Hi, Saya Asisstant Dokter-Pyrobot\nTidak Ada Yang Special Kecuali Dokter."
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Support", url="https://t.me/cari_kawanindonesia"),
-            InlineKeyboardButton("Channel", url="https://t.me/BeeXDomp"),
+            InlineKeyboardButton("Support", url="https://t.me/ctg_id1"),
+            InlineKeyboardButton("Channel", url="https://t.me/ZannXBumb"),
         ],
     ])
 
