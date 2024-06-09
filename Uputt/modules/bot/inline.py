@@ -70,7 +70,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/737fceed0883e53576b13.jpg",
+            thumb_url="https://telegra.ph/file/dd5d0e02c0cecce66d7b7.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -96,7 +96,7 @@ async def pingme(client: Client, message: Message):
 
 async def peler_function(message: Message, answers):
     msg = (
-        f"Bee-Pyrobot \n"
+        f"Dokter-Pyrobot \n"
         "ㅤㅤStatus : Ubot Aktif🐣 \n"
         f"ㅤㅤㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤBot Version: {BOT_VER} \n"
@@ -106,7 +106,7 @@ async def peler_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/0400c0b0b2d9869d3a9d5.jpg",
+            thumb_url="https://telegra.ph/file/33c2a153741ca2c1f5be2.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -124,7 +124,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/7d7432a542a03ded9ae43.jpg",
+            thumb_url="https://telegra.ph/file/fd6b37b5071a2cae8d091.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
