@@ -18,10 +18,10 @@ load_dotenv("config.env")
 
 
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "😄")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/c3f4f8a443333842dd1f3.jpg")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/33c2a153741ca2c1f5be2.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "ʜᴇʏ, ɪ ᴀᴍ ᴀʟɪᴠᴇ.")
-API_HASH = getenv("API_HASH", "ecc3091912fba8a260706a660fc77b3a")
-API_ID = getenv("API_ID", "29561199")
+API_HASH = getenv("API_HASH", "121ee27b8306b14d62e0e39d9b82cec3")
+API_ID = getenv("API_ID", "26584862")
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001608701614, -1001675459127, -1001473548283, -1001608701614]
@@ -33,11 +33,11 @@ CMD_HNDLR = cmd
 OWNER_ID = getenv("OWNER_ID", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
-CHANNEL = getenv("CHANNEL", "BeeXDomp")
+CHANNEL = getenv("CHANNEL", "ZannXBumb")
 CMD_HANDLER = getenv("CMD_HANDLER", "∆")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
-GROUP = getenv("GROUP", "cari_kawanindonesia")
+GROUP = getenv("GROUP", "ctg_id1")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
